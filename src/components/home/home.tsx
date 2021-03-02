@@ -5,6 +5,7 @@ interface HomeProps{
     GoRoule:()=>void;
     GoMake:()=>void;
 }
+
 function home({GoHistory,GoRoule,GoMake}:HomeProps) {
     return (
         <div>

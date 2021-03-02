@@ -1,6 +1,6 @@
 import React,{ useRef, useState, useCallback, useEffect} from 'react';
 
-import Home from './home';
+import Home from '../components/home/home';
 
 import {useHistory} from "react-router-dom";
 
